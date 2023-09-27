@@ -1,9 +1,12 @@
 {
   "compilerOptions": {
-    "baseUrl": "./",
+    "jsx": "react",
+    "baseUrl": "./src",
     "paths": {
       "@components/*": ["components/*"],
       "@styles/*": ["styles/*"]
-    }
+    },
+    "checkJs": true,
+    "allowJs": true
   }
 }

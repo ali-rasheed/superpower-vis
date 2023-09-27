@@ -1,0 +1,339 @@
+{
+  "nodes": [
+    {
+      "id": "Superpower",
+      "group": 1,
+      "desc": "",
+      "value": 100,
+      "img": "superpower.png"
+    },
+    {
+      "id": "Physical Health",
+      "group": 1,
+      "desc": "The state of well-being where all body systems and organs function optimally, free from disease, and are properly conditioned through regular exercise, movement, and maintenance. Superpower defines Physical Health as your physical fitness, your Physiological Health, Genetics, and Disease Risk.",
+      "value": 50,
+      "img": "physical-health.png"
+    },
+    {
+      "id": "Mental Health",
+      "group": 2,
+      "desc": "The balance of psychological, emotional, and social well-being, critical for personal resilience, coping mechanisms, and overall cognitive function.",
+      "value": 50,
+      "img": "mental-health.png"
+    },
+    {
+      "id": "Environment",
+      "group": 2,
+      "desc": "The external factors affecting your health, including the physical, social, and chemical aspects of your surroundings. Common environmental exposures that may influence your health include air quality, water quality, chemicals, fungi, toxins, pollutants, and electromagnetic fields.",
+      "value": 50,
+      "img": "environment.png"
+    },
+
+    {
+      "id": "Sleep",
+      "group": 2,
+      "desc": "The restorative state of body and mind that contributes to overall health by allowing for the healing and rejuvenation of various body functions.",
+      "value": 50,
+      "img": "sleep.png"
+    },
+    {
+      "id": "Nutrition",
+      "group": 2,
+      "desc": "The provision of essential nutrients to the body through balanced diet and lifestyle, fundamental for the body's growth, repair, and maintenance.",
+      "value": 50,
+      "img": "nutrition.png"
+    },
+    {
+      "id": "Physical Fitness",
+      "group": 2,
+      "desc": "Your ability to perform daily physically demanding activities effectively.",
+      "value": 25,
+      "img": "placeholder.png"
+    },
+    {
+      "id": "Physiological Health",
+      "group": 2,
+      "desc": "Your ability to perform daily physically demanding activities effectively.",
+      "value": 25,
+      "img": "placeholder.png"
+    },
+    {
+      "id": "Genetics",
+      "group": 2,
+      "desc": "Your ability to perform daily physically demanding activities effectively.",
+      "value": 25,
+      "img": "placeholder.png"
+    },
+    {
+      "id": "Disease Risk",
+      "group": 2,
+      "desc": "Your ability to perform daily physically demanding activities effectively.",
+      "value": 25,
+      "img": "placeholder.png"
+    },
+    {
+      "id": "Emotional Well-being",
+      "group": 2,
+      "desc": "Your ability to perform daily physically demanding activities effectively.",
+      "value": 25,
+      "img": "placeholder.png"
+    },
+    {
+      "id": "Cognitive Function",
+      "group": 2,
+      "desc": "Your ability to perform daily physically demanding activities effectively.",
+      "value": 25,
+      "img": "placeholder.png"
+    },
+    {
+      "id": "Spirituality and Purpose",
+      "group": 2,
+      "desc": "Your ability to perform daily physically demanding activities effectively.",
+      "value": 25,
+      "img": "placeholder.png"
+    },
+    {
+      "id": "Community, Relationships, and Social Satisfaction",
+      "group": 2,
+      "desc": "Your ability to perform daily physically demanding activities effectively.",
+      "value": 25,
+      "img": "placeholder.png"
+    },
+    {
+      "id": "Subconscioiusness work and understanding your 'inner child'",
+      "group": 2,
+      "desc": "Your ability to perform daily physically demanding activities effectively.",
+      "value": 25,
+      "img": "placeholder.png"
+    },
+    {
+      "id": "Physical Environment",
+      "group": 2,
+      "desc": "The physical environment refers to the tangible external factors and conditions that surround you, which can influence your physiological and biochemical health processes. This includes elements like air quality, water quality, exposure to toxins or pollutants, access to clean foods, radiation levels, and other external factors that can either support or hinder optimal health. A well-balanced physical environment promotes health by minimizing exposures to harmful elements and maximizing beneficial ones.",
+      "value": 25,
+      "img": "placeholder.png"
+    },
+    {
+      "id": "Social Environment",
+      "group": 2,
+      "desc": "Your ability to perform daily physically demanding activities effectively.",
+      "value": 25,
+      "img": "placeholder.png"
+    },
+    {
+      "id": "Diet",
+      "group": 2,
+      "desc": "Your ability to perform daily physically demanding activities effectively.",
+      "value": 25,
+      "img": "placeholder.png"
+    },
+    {
+      "id": "Macronutrient",
+      "group": 2,
+      "desc": "Your ability to perform daily physically demanding activities effectively.",
+      "value": 25,
+      "img": "placeholder.png"
+    },
+    {
+      "id": "Micronutrient",
+      "group": 2,
+      "desc": "Your ability to perform daily physically demanding activities effectively.",
+      "value": 25,
+      "img": "placeholder.png"
+    },
+    {
+      "id": "Gut Health",
+      "group": 2,
+      "desc": "Your ability to perform daily physically demanding activities effectively.",
+      "value": 25,
+      "img": "placeholder.png"
+    },
+    {
+      "id": "Allergies",
+      "group": 2,
+      "desc": "Your ability to perform daily physically demanding activities effectively.",
+      "value": 25,
+      "img": "placeholder.png"
+    },
+    {
+      "id": "Hydration",
+      "group": 2,
+      "desc": "Your ability to perform daily physically demanding activities effectively.",
+      "value": 25,
+      "img": "placeholder.png"
+    },
+    {
+      "id": "Sleep Quality",
+      "group": 2,
+      "desc": "Your ability to perform daily physically demanding activities effectively.",
+      "value": 25,
+      "img": "placeholder.png"
+    },
+    {
+      "id": "Sleep Duration",
+      "group": 2,
+      "desc": "Your ability to perform daily physically demanding activities effectively.",
+      "value": 25,
+      "img": "placeholder.png"
+    },
+    {
+      "id": "Sleep Disorders",
+      "group": 2,
+      "desc": "Your ability to perform daily physically demanding activities effectively.",
+      "value": 25,
+      "img": "placeholder.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "Superpower",
+      "target": "Physical Health",
+      "value": 1,
+      "curvature": 0.5
+    },
+    {
+      "source": "Superpower",
+      "target": "Mental Health",
+      "value": 1,
+      "curvature": 0.5
+    },
+    {
+      "source": "Superpower",
+      "target": "Environment",
+      "value": 1,
+      "curvature": 0.5
+    },
+    {
+      "source": "Superpower",
+      "target": "Sleep",
+      "value": 15,
+      "curvature": 0.5
+    },
+    {
+      "source": "Superpower",
+      "target": "Nutrition",
+      "value": 15,
+      "curvature": 0.5
+    },
+    {
+      "source": "Physical Health",
+      "target": "Physical Fitness",
+      "value": 1,
+      "curvature": 0.5
+    },
+    {
+      "source": "Physical Health",
+      "target": "Physiological Health",
+      "value": 1,
+      "curvature": 0.5
+    },
+    {
+      "source": "Physical Health",
+      "target": "Genetics",
+      "value": 1,
+      "curvature": 0.5
+    },
+    {
+      "source": "Physical Health",
+      "target": "Disease Risk",
+      "value": 1,
+      "curvature": 0.5
+    },
+    {
+      "source": "Mental Health",
+      "target": "Emotional Well-being",
+      "value": 1,
+      "curvature": 0.5
+    },
+    {
+      "source": "Mental Health",
+      "target": "Cognitive Function",
+      "value": 1,
+      "curvature": 0.5
+    },
+    {
+      "source": "Mental Health",
+      "target": "Spirituality and Purpose",
+      "value": 1,
+      "curvature": 0.5
+    },
+    {
+      "source": "Mental Health",
+      "target": "Community, Relationships, and Social Satisfaction",
+      "value": 1,
+      "curvature": 0.5
+    },
+    {
+      "source": "Mental Health",
+      "target": "Subconscioiusness work and understanding your 'inner child'",
+      "value": 1,
+      "curvature": 0.5
+    },
+    {
+      "source": "Environment",
+      "target": "Physical Environment",
+      "value": 1,
+      "curvature": 0.5
+    },
+    {
+      "source": "Environment",
+      "target": "Social Environment",
+      "value": 1,
+      "curvature": 0.5
+    },
+    {
+      "source": "Nutrition",
+      "target": "Diet",
+      "value": 1,
+      "curvature": 0.5
+    },
+    {
+      "source": "Nutrition",
+      "target": "Macronutrient",
+      "value": 1,
+      "curvature": 0.5
+    },
+    {
+      "source": "Nutrition",
+      "target": "Micronutrient",
+      "value": 1,
+      "curvature": 0.5
+    },
+    {
+      "source": "Nutrition",
+      "target": "Gut Health",
+      "value": 1,
+      "curvature": 0.5
+    },
+    {
+      "source": "Nutrition",
+      "target": "Allergies",
+      "value": 1,
+      "curvature": 0.5
+    },
+    {
+      "source": "Nutrition",
+      "target": "Hydration",
+      "value": 1,
+      "curvature": 0.5
+    },
+    {
+      "source": "Sleep",
+      "target": "Sleep Quality",
+      "value": 1,
+      "curvature": 0.5
+    },
+    {
+      "source": "Sleep",
+      "target": "Sleep Duration",
+      "value": 1,
+      "curvature": 0.5
+    },
+    {
+      "source": "Sleep",
+      "target": "Sleep Disorders",
+      "value": 1,
+      "curvature": 0.5
+    }
+  ]
+}
