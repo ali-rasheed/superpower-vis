@@ -33,11 +33,11 @@ export default function Home() {
   }, []);
 
   return (
-    <main
-      className="w-full flex-1 px-20 text-center
-      bg-white"
-    >
-      <DynamicGraph graphData={data} />
+    <main className="w-full p-4">
+      <h1 className="text-2xl"> Superpower site</h1>
+      <section className="m-4 flex center">
+        <DynamicGraph graphData={data} />
+      </section>
     </main>
   );
 }
