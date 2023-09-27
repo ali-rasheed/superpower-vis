@@ -1,8 +1,6 @@
 // import dynamic from "next/dynamic";
 import React, { useState, useEffect, useMemo, useRef } from "react";
 import { ForceGraph2D } from "react-force-graph";
-// import * as THREE from "three";
-// import { random } from "cypress/types/lodash";
 import genRandomTree from "../utility/random-data-gen";
 
 // import { CSS2DRenderer, CSS2DObject } from "three/examples/jsm/renderers/CSS2DRenderer.js";
@@ -29,8 +27,14 @@ type Node = {
 
 };
 const MyForceGraph = ({ graphData }: MyForceGraphProps) => {
-  const fgRef = useRef<any>(null);
+  const initForceGraph = async () => {
+    const { ForceGraph2D } = await import("react-force-graph");
+    return ForceGraph2D;
+  }
 
+
+
+  const fgRef = useRef<any>(null);
 
   const imgs = graphData.nodes.map((node: Node) => {
     if (node.imageBool == false || node.img == "" || node.img == null) {

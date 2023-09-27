@@ -1,23 +1,22 @@
 "use client";
-import Head from "next/head";
 import { useState } from "react";
 import dynamic from "next/dynamic";
 import { useEffect } from "react";
 
 export default function Home() {
   const [data, setData] = useState([]);
-  const imgs = [["a.jpg", "something"], "a.jpg", "a.jpg", "a.jpg"];
+  // const imgs = [["a.jpg", "something"], "a.jpg", "a.jpg", "a.jpg"];
 
-  const gData = {
-    nodes: imgs.map((img, id, text) => ({ id, img, text })),
-    links: [...Array(imgs.length).keys()]
+  // const gData = {
+  //   nodes: imgs.map((img, id, text) => ({ id, img, text })),
+  //   links: [...Array(imgs.length).keys()]
 
-      .filter((id) => id)
-      .map((id) => ({
-        source: id,
-        target: Math.round(Math.random() * (id - 1)),
-      })),
-  };
+  //     .filter((id) => id)
+  //     .map((id) => ({
+  //       source: id,
+  //       target: Math.round(Math.random() * (id - 1)),
+  //     })),
+  // };
 
   const DynamicGraph = dynamic(() => import("./graphs/graphA"), {
     ssr: false,
